@@ -1,0 +1,29 @@
+.overlay {
+    position: fixed;
+    z-index: 100001;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(19, 28, 36, 0.57);
+    & .overlay-body {
+        overflow: auto;
+    }
+    .overlay-container {
+
+        //margin: 56px 90px 43px;
+        
+        
+
+        & .overlay-close-button {
+            color: #fff;
+            float: right;
+            margin-top: -15px;
+            margin-left: 10px;
+            letter-spacing: 0.2px;
+            cursor: pointer;
+        }
+    }
+}

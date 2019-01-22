@@ -1,0 +1,10 @@
+.responsive-table {
+    @media all and (max-width: 1024px) {
+        overflow-x: auto;
+        overflow-y: visible;
+        width: inherit;
+        .inner-container {
+            min-width: 1025px;
+        }
+    }
+}

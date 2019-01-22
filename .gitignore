@@ -1,0 +1,25 @@
+#node dependencies 
+/node_modules
+
+#build 
+
+#lint configuration
+.eslintrc.json
+
+#ide-specific
+nbproject
+.~lock.*
+.buildpath
+.idea
+.project
+.settings
+composer.lock
+.history/
+.vscode/
+
+#misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
