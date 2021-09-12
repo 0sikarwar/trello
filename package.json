@@ -1,6 +1,7 @@
 {
   "name": "trello",
   "version": "0.1.0",
+  "homepage": "http://0sikarwar.github.io/trello",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
