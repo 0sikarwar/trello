@@ -1,0 +1,9 @@
+.toast {
+    bottom: -100px;
+    transition: 0.6s bottom ease-in;
+    z-index: 9999999999;
+    &.active {
+        bottom: 120px;
+        transition: 0.6s bottom ease-out;
+    }
+}
